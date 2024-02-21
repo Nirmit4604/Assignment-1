@@ -1,0 +1,95 @@
+/* Reset default margin and padding */
+html{
+    background-color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* Global typography and background */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    color: black;
+  }
+  
+  /* Container styles */
+  .container {
+    background-color: yellow;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    color: darkblue;
+  }
+  
+  /* Output styles */
+  #output {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  /* Button container styles */
+  #buttons,
+  #blue-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Common button styles */
+  .word-btn,
+  #random-btn,
+  #reset-btn,
+  #view-story-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Word button specific styles */
+  .word-btn {
+    background-color: green;
+  }
+  
+  .word-btn:hover {
+    background-color: green;
+  }
+  
+  /* Blue button specific styles */
+  #random-btn,
+  #reset-btn,
+  #view-story-btn {
+    background-color: purple;
+  }
+  
+  #random-btn:hover,
+  #reset-btn:hover,
+  #view-story-btn:hover {
+    background-color: #005f7f;
+  }
+  
+  /* Hover effect for all buttons */
+  .word-btn:hover,
+  #random-btn:hover,
+  #reset-btn:hover,
+  #view-story-btn:hover {
+    transform: scale(1.05); /* Increase button size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover for depth effect */
+  }
+  
